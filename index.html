@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>NO!</h1>
+    <h1>NO!</h1>
+    <h2 class="sectionText" style="background-color: #5213a9">NO!</h2>
+    <h3 class="sectionText" id="subtitleSection">NO!</h3>
+    <h4>PELOTUDA</h4>
+    <p>Érase una vez...</p>
+    <strong>Una chica en pelotas muy bella </strong>
+    <b>Una chica en bolas muy bella</b>
+    <mark>sostenía SANDIAS FRIAS</mark>
+    <p>Más infoirmación en el siguiente link</p>
+    <a
+      href="https://brandominus.com/blog/creatividad/todas-etiquetas-html5"
+      target="_blank"
+    >
+      www.tratadeblancasquintana.com
+    </a>
+    <br />
+    <form id="formSuma">
+      <input name="numero1" placeholder="ingrese numero" />
+      <input name="numero2" placeholder="ingrese numero" />
+      <br />
+
+      <button id="cerebro" title="añadir al carrito" type="submit">
+        SUMAR
+      </button>
+    </form>
+
+    <script>
+      // your function
+      const my_func = function (event, algomas) {
+        console.log('🚀 ~ file: index.html:41 ~ algomas:', algomas);
+        console.log('🚀 ~ file: index.html:41 ~ event:', event);
+        alert('me and all my relatives are owned by China');
+        event.preventDefault();
+      };
+
+      // your form
+      const form = document.getElementById('formSuma');
+
+      // attach event listener
+      form.addEventListener('submit', my_func, true);
+    </script>
+  </body>
+</html>

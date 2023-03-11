@@ -1,0 +1,19 @@
+#subtitleSection {
+    background-color: deepskyblue;
+  }
+  
+  .sectionText {
+    background-color: deepskyblue !important;
+    text-decoration: line-through;
+  }
+  
+  h1 {
+    color: brown;
+  }
+  
+  #cerebro {
+    background-color: black;
+    color: blanchedalmond;
+    width: 145px;
+    height: 120px;
+  }
